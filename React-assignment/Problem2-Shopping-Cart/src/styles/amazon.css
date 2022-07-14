@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+section {
+  width: 80%;
+  margin: auto;
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+}
+.cards {
+  width: 250px;
+  padding: 20px;
+}
+.cards:hover {
+  box-shadow: 0 10px 10px 10px rbga(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.image_box img {
+  width: 150px;
+  height: 200px;
+}
+
+.image_box img {
+  width: 150px;
+  height: 200px;
+}
+.details p:nth-child(1) {
+  font-weight: 500;
+  font-family:monospace;
+  font-size: 1.2rem;
+}
+.details p:nth-child(2) {
+  color: grey;
+  font-size: 0.8rem;
+}
+.details p:nth-child(3) {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  font-family: serif;
+  font-size: 1.1rem;
+}
+.details p:nth-child(3) span{
+  margin-left: 5px;
+  text-decoration: line-through;
+  color: rgba(214, 214, 214, 0.721);
+}
+.details button {
+  padding: 7px 10px;
+  border: none;
+  font-weight: bold;
+  background-color: rgb(13, 110, 149);
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  margin: 8px;
+}

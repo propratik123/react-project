@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+article {
+  width: 60%;
+  margin: auto;
+ 
+}
+  h1{
+    text-align: center;
+    margin: 5px;
+    font-weight: 600;
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.827);
+  }
+.cards{
+  border: 8px solid rgb(250, 241, 242);
+  margin: 5px;
+  justify-content: center;
+  text-align: center;
+  /* width: 250px; */
+  line-height: 23px;
+}
+.details button{
+  
+}
+.cart_box img {
+  width: 80px;
+  height: 80px;
+  border: 8px solid aliceblue;
+  background-color: aliceblue;
+}
+.cart_img {
+  display: flex;
+  width: 450px;
+}
+.cart_img .cart-item-detail{
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+.cart_img .cart-item-detail p{
+  justify-content: center;
+  text-align: center;
+  margin: auto 40px;
+  font-weight: 300;
+}
+.cart_img .cart-item-detail p:nth-child(1){
+  color: crimson;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.cart_img p {
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.cart_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-bottom: 2px solid rgb(5, 70, 96);
+  padding-bottom: 5px;
+}
+
+.cart_box div:nth-child(2) button {
+  padding: 5px 10px;
+  font-weight: bold;
+  margin-right: 5px;
+  background-color: rgb(190, 101, 6);
+  color: white;
+  outline: none;
+  cursor: pointer;
+}
+
+/* .cart_box div:nth-child(3) button {
+  padding: 5px 10px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: skyblue;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.cart_box div:nth-child(3) button:hover {
+  background-color: rgb(56, 194, 56);
+}
+.cart_box div:nth-child(3) span {
+  background-color: lightgreen;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+} */
+
+.total {
+  display: flex;
+  justify-content: space-between;
+}
+
+.total span:nth-child(1) {
+  font-size: 2rem;
+  color: skyblue;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.total span:nth-child(2) {
+  font-size: 2rem;
+  color: green;
+  font-weight: bold;
+}
